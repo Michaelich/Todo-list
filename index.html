@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="./script.js"></script>
+</head>
+
+<body>
+  <header class="header" id="header">
+    <h1 class="header__content">My List</h1>
+  </header>
+  <main>
+    <form action="" class="form" id="Form">
+      <div class="form__item form__message">
+        <label for="message" class="label label__message flex__item">Add to the list:</label>
+        <input name="message" id="message" required class="input input__textarea flex__item"></textarea>
+        <button type="submit" class="button__add flex__item">Add</button>
+        <div class="counter__wrapper flex__item">Tasks to do: <span id="counter">0</span></div>
+      </div>
+
+
+    </form>
+    <div class="clear__wrapper">
+      <button type="button" class="button__clear" id="button--clear">Clear</button>
+    </div>
+    <section class="section__list">
+      <ul class="list" id="list">
+        <!--
+        <li id="list__item1" class="list__item">
+          <p class="list__item__text">
+            Temp
+          </p>
+          <button type="button" class="button--done" id="button--done0">Done</button>
+          <button type="button" class="button--remove" id="button--remove0">Remove</button>
+        </li>
+        -->
+      </ul>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
